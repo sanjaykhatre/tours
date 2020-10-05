@@ -1,0 +1,109 @@
+{
+
+    "id": 1,
+    "title": "Annapurna Treks",
+    "bannerImage": "https://www.welcomenepal.com/uploads/destination/poonhill-pg-adventure.jpeg",
+    "bannerAlt": "Annapurna",
+
+    "packages": [
+        {
+            "id": 1,
+            "title": "Annapurna Base Camp",
+            "price": "2000",
+            "date": "2012-02-12",
+            "altitude": "1000 m",
+            "time": "20 hrs",
+            "group": "2 pcs",
+            "level": "Moderate",
+            "accomodation": "Hotel"
+        },
+        {
+            "id": 2,
+            "title": "Manasalu Circuit Trek",
+            "price": "2000",
+            "date": "2012-02-12",
+            "altitude": "1000 m",
+            "time": "20 hrs",
+            "group": "2 pcs",
+            "level": "Moderate",
+            "accomodation": "Hotel"
+        },
+        {
+            "id": 3,
+            "title": "Poonhil Trek",
+            "price": "2000",
+            "date": "2012-02-12",
+            "altitude": "1000 m",
+            "time": "20 hrs",
+            "group": "2 pcs",
+            "level": "Moderate",
+            "accomodation": "Hotel"
+        },
+        {
+            "id": 4,
+            "title": "Langtang Trek",
+            "price": "2000",
+            "date": "2012-02-12",
+            "altitude": "1000 m",
+            "time": "20 hrs",
+            "group": "2 pcs",
+            "level": "Moderate",
+            "accomodation": "Hotel"
+        }
+    ],
+
+    "similarTreks": [{
+            "id": 1,
+            "title": "Annapurna Base Camp",
+            "price": "2000",
+            "bannerImage": "https://www.welcomenepal.com/uploads/destination/poonhill-pg-adventure.jpeg",
+            "bannerAlt": "Annapurna",
+            "date": "2012-02-12",
+            "altitude": "1000 m",
+            "time": "20 hrs",
+            "group": "2 pcs",
+            "level": "Moderate",
+            "accomodation": "Hotel"
+        },
+        {
+            "id": 2,
+            "title": "Annapurna Base Camp",
+            "price": "2000",
+            "bannerImage": "https://www.welcomenepal.com/uploads/destination/poonhill-pg-adventure.jpeg",
+            "bannerAlt": "Annapurna",
+            "date": "2012-02-12",
+            "altitude": "1000 m",
+            "time": "20 hrs",
+            "group": "2 pcs",
+            "level": "Moderate",
+            "accomodation": "Hotel"
+        },
+        {
+            "id": 3,
+            "title": "Annapurna Base Camp",
+            "price": "2000",
+            "bannerImage": "https://www.welcomenepal.com/uploads/destination/poonhill-pg-adventure.jpeg",
+            "bannerAlt": "Annapurna",
+            "date": "2012-02-12",
+            "altitude": "1000 m",
+            "time": "20 hrs",
+            "group": "2 pcs",
+            "level": "Moderate",
+            "accomodation": "Hotel"
+        },
+        {
+            "id": 4,
+            "title": "Annapurna Base Camp",
+            "price": "2000",
+            "bannerImage": "https://www.welcomenepal.com/uploads/destination/poonhill-pg-adventure.jpeg",
+            "bannerAlt": "Annapurna",
+            "date": "2012-02-12",
+            "altitude": "1000 m",
+            "time": "20 hrs",
+            "group": "2 pcs",
+            "level": "Moderate",
+            "accomodation": "Hotel"
+        }
+    ]
+
+}

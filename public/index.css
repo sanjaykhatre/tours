@@ -1,0 +1,1549 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* tours page */
+
+h2{
+  color: #BF202F;
+  text-transform: uppercase;
+}
+.tour-info-palce h2{
+  font-size: 28px;
+  font-weight: 700;
+  padding: 5px;
+}
+.travel-export h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.travel-export .tour-num{
+  background-color: #00a651;
+  padding: 15px;
+  text-align: center;
+
+}
+.tour-num a:link{
+  text-decoration: none;
+}
+.tour-num a{
+  color: white;
+ font-size: 30px;
+ font-weight: 700;
+
+}
+.tour-num:hover{
+  background-color: #BF202F;
+}
+.tour-mail a:link{
+  text-decoration: none;
+}
+.tour-mail{
+  text-align: center;
+}
+.tour-mail a{
+  font-size: 30px;
+  color: #BF202F;
+  font-weight: 700;
+}
+.tour-info-social-icon{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+ 
+}
+.tour-info-social-icon ul{
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.tour-info-social-icon ul li a:link {
+  text-decoration: none;
+}
+.tour-info-social-icon ul li a i{
+  font-size: 50px;
+  padding: 10px;
+ 
+
+}
+.tour-info-social-icon ul li a p{
+color: black;
+text-transform: uppercase;
+padding: 5px;
+}
+.tour-info-social-icon ul li a p:hover{
+color: #BF202F;
+
+}
+.trek-map .container h2{
+ font-size: 22px;
+ font-weight: 700;
+ padding: 7px;
+}
+.trek-name ul{
+  list-style: none;
+  
+}
+.trek-name ul li::before{
+  content: '\2014';
+  margin-right: 20px;
+  padding: 5px;
+
+  
+
+}
+.trek-name ul li {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 25px;
+  padding-bottom: 20px;
+  
+
+}
+/* popular annapurna region treks */
+.popular-trek-img-info h3{
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+  padding-left: 15px;
+}
+.popular-trek-img-info{
+  background-color: white;
+  z-index: 999;
+  position: absolute;
+  width: 500px;
+  right: 35px;
+  top: 340px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.popular-trek-img-info ul{
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+
+}
+.popular-trek-rate{
+  position: absolute;
+  top:-5px;
+  left: 70px;
+  z-index: 999;
+  width: 120px;
+  height: 80px;
+  background: #00a551;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.popular-trek-rate::before{
+  content: "";
+  position: absolute;
+  right: 100%;
+  top:-1px;
+  left: -22px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #00a551;
+  border-bottom: 13px solid transparent;
+
+}
+.popular-trek-rate>p{
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px;
+  font-weight: 400;
+}
+.popular-trek-img{
+  padding-bottom: 170px;
+}
+
+.popular-trek-img-info ul li{
+  padding: 15px;
+}
+.popular-trek-btn{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.popular-trek-btn .inq-btn a{
+background: #BF202F;
+margin-right: 20px;
+}
+.popular-trek-btn .inq-btn a:link{
+text-decoration: none;
+}
+.popular-trek-btn .inq-btn a:hover{
+background-color: black;
+}
+.popular-trek-btn .inq-btn a{
+text-transform: uppercase;
+text-align: center;
+padding: 5px 40px;
+color: white;
+}
+.popular-trek-btn .date-btn a{
+background: #00a651;
+}
+.popular-trek-btn .date-btn a:link{
+text-decoration: none;
+}
+.popular-trek-btn .date-btn a:hover{
+background-color: black;
+}
+.popular-trek-btn .date-btn a{
+text-transform: uppercase;
+text-align: center;
+padding: 5px 30px;
+color: white;
+}
+.similar-treks .container h2{
+  padding-top: 20px;
+  font-size: 26px;
+  font-weight: 800; 
+}
+.similar-treks-img{
+padding-top: 10px;
+}
+.treks-img-name h4{
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 75px;
+  font-size: 18px;
+}
+
+
+/* responsive css iphonex */
+@media only screen   and (min-device-width: 375px) 
+and (max-device-width: 768px)  {
+  .popular-trek-img {
+      padding-bottom: 234px;
+  }
+  .popular-trek-img-info {
+  
+      width: 305px;
+      right: 35px;
+      top: 210px;
+      
+  }   
+  .popular-trek-btn .inq-btn a {
+    
+      padding: 5px 14px;
+    
+  } 
+  .popular-trek-btn .date-btn a { 
+      padding: 5px 11px;
+  }
+  .popular-trek-img-info h3 {
+      font-size: 14px;
+  }
+  .popular-trek-img-info ul li {
+      padding: 5px;
+  }
+
+  .similar-treks-img img {
+      padding-top: 10px;
+      width: 100%;
+  }
+  .treks-img-name h4 {
+      top: 60px;
+      right: 105px;
+  }
+}
+*{
+  margin: 0;
+  padding:0; 
+}
+/* responsive css for iphone-x */
+@media only screen   and (min-device-width: 375px) 
+and (max-device-width: 767px)  {
+ .logo a img{
+   height: 100px;
+ }
+ .search-box button i {
+   padding: 20px;
+}
+ .search-box input {
+   margin-left: 34px;
+   margin-bottom: 10px;
+}
+.search-box:hover > input {
+ width: 256px;
+}
+/* banner */
+.banner-info-wrapper {
+ right: 45px;
+
+}
+.banner-info h2 {
+ text-transform: uppercase;
+ font-size: 16px;
+}
+.banner-info P {
+ padding: 0px !important;
+ font-size: 14px;
+}
+/* custom select */
+.custom-select{
+margin-left: 0px;
+}
+.arrow a{
+ margin-left: 20px !important;
+}
+.featured__text-left {
+ font-size: 20px !important;
+}
+.popular__text-left {
+
+ font-size: 20px !important;
+ 
+}
+.popular-treks__arrow a {
+
+ margin-left: 20px !important;
+ 
+}
+.travel-news {
+ display: none;
+}
+/* navbar */
+
+.m-navbar-togglerr{
+ background-color: #BF202F;
+ padding: 10px;
+ position: absolute;
+ top: 170px;
+ right: 37px;
+ z-index: 999;
+}
+.m-navbar-togglerr span{
+ color: white;
+ padding: 0px;
+ display: grid;
+ text-transform: uppercase;
+ font-size: 14px;
+}
+
+.m-nav-items{
+ display: none;
+ position: absolute;
+ width: 100%;
+ z-index: 999;
+ height: 100vh;
+ margin-top: 29px;
+ background: black;
+ 
+}
+.m-nav-items ul li{
+ list-style: none;
+ padding: 20px;
+}
+.m-nav-items ul li a{
+ margin: 13px;
+   text-transform: uppercase;
+   color: white;
+   padding: 20px;
+   font-size: 20px;
+   font-weight: 700;
+}
+.m-nav-items ul li a:link{
+text-decoration: none;
+}
+
+.m-nav-items.active{
+ display: block ;
+}
+/* detaols page responsive */
+.trip-specification-wrapper{
+ padding-bottom: 20px;
+}
+.trip-card{
+
+position: unset !important;
+}
+}
+/* /iphone x */
+
+
+/* responsive for ipad */
+@media only screen   and (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+ .banner-info-wrapper {
+   right: 335px;
+ }
+ .custom-select {
+
+   width: 90% !important;
+ }
+
+ .plans .request-trip a{
+
+   font-size: 14px;
+   padding: 21px;
+ }
+ .plans .customize-trip a{
+   font-size: 14px;
+ }
+
+.m-navbar-togglerr{
+ background-color: #BF202F;
+ padding: 10px;
+ position: absolute;
+ top: 193px;
+ right: 37px;
+ z-index: 999;
+}
+.m-navbar-togglerr span{
+ color: white;
+ padding: 0px;
+ display: grid;
+ text-transform: uppercase;
+ font-size: 14px;
+}
+.m-nav-items{
+ display: none;
+ position: absolute;
+ width: 100%;
+ z-index: 999;
+ height: 100vh;
+ margin-top: 29px;
+ background: black;
+ 
+}
+.m-nav-items ul li{
+ list-style: none;
+ padding: 20px;
+}
+.m-nav-items ul li a{
+ margin: 13px;
+   text-transform: uppercase;
+   color: white;
+   padding: 20px;
+   font-size: 20px;
+   font-weight: 700;
+}
+.m-nav-items ul li a:link{
+text-decoration: none;
+}
+
+.m-nav-items.active{
+ display: block ;
+}
+/* details-page */
+.trip-social-icon ul li {
+ 
+ padding: 0 !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo a img{
+ width: 100%;
+}
+.search-box{
+ float: right ;
+}
+.search-box button i{
+ color: white;
+
+ background: #BF202F;
+ padding: 20px;
+ border-right: 1;
+ border-radius: 0px 10px 10px 0px;
+}
+.search-box button{
+ border: none;
+ background-color: white;
+}
+.search-box input{
+ background: white;
+ outline: none;
+ color: black;
+ padding: 14px;
+ border-radius: 10px 0px 0px 10px;
+ border: 2px solid #BF202F;
+ margin-right: -4px;
+ display: none;
+}
+.search-box:hover > input{
+ display: initial ;
+}
+/* navbar */
+.navbar-togglerr{
+ background-color: #BF202F;
+ padding: 10px;
+
+}
+.navbar-togglerr i{
+ color: #fff;
+
+ 
+
+}
+.navbar-togglerr:hover {
+ background-color: black;
+ 
+
+}
+
+.naavbar{
+ background-color: #fff;
+ z-index: 1000;
+}
+
+.nav-items ul{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ 
+}
+.nav-items ul li{
+list-style: none;
+}
+.nav-items ul li a{
+text-transform: uppercase;
+color: black;
+font-weight: 600;
+z-index: 1;
+}
+.nav-items ul li a:link{
+text-decoration: none;
+}
+.nav-items ul li a:hover{
+ color: #BF202F;
+}
+.sticky {
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+
+/* .banner-image */
+.banner-image{
+   width: 100%;
+   position: relative;
+
+}
+.banner-image img{
+   width: 100%;
+   object-fit: cover;
+   height: 650px;
+
+}
+.banner-info-wrapper{
+   position: absolute;
+   top: 160px;
+   left: 70px;
+   background-color: rgba(0,0,0,0.4);
+   width: auto;
+}
+.banner-info{
+   padding: 25px;
+   color: white;
+}
+.banner-info h2{
+ text-transform: uppercase;
+
+}
+.banner-info P{
+padding: 10PX;
+}
+.banner-info span{
+ background-color:#BF202F;
+ padding: 10px;
+ color: white;
+ text-transform: uppercase;
+}
+.banner-info span:hover{
+padding: 12px;
+
+}
+.banner-info span a:link{
+ text-decoration: none;
+ 
+}
+.banner-info span a{
+ text-decoration: none;
+ color: white;
+}
+.trek-options{
+   /* background-image: url(../img/trek-option.jpg); */
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/*select options  */
+.frontier{
+ background-color: #F5F5F1 !important;
+}
+
+.custom-select {
+ position: relative;
+ font-family: Arial;
+width: 75% !important;
+ background-color: white !important;
+ color: black !important;
+ 
+}
+
+.custom-select select {
+ display: none;
+ color: black !important; /*hide original SELECT element: */
+}
+
+.select-selected {
+ color: black !important;
+
+
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+ position: absolute;
+ content: "";
+ top: 14px;
+ right: 10px;
+ width: 0;
+ height: 0;
+ border: 6px solid transparent;
+ border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+ border-color: transparent transparent #fff transparent;
+ top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+font-weight: 700 !important; 
+color: #BF202F !important;
+ border: 1px solid transparent;
+ border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+ cursor: pointer;
+ padding: 1px ;
+ float: left;
+
+}
+
+/* Style items (options): */
+.select-items {
+ position: absolute;
+ background-color:whitesmoke;
+ top: 100%;
+ left: 0;
+ right: 0;
+ z-index: 99;
+ display: grid ;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+ display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+ background-color: rgba(0, 0, 0, 0.1);
+}
+
+.select-items div, .select-selected {
+ font-weight: 700 !important;
+ color: #BF202F !important;
+ border: 1px solid transparent;
+ border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+ cursor: pointer;
+ padding: 1px;
+ float: left;
+ border: none;
+}
+.search-trip-btn{
+
+ color: #fff;
+}
+.search-trip-btn a:link{
+ text-decoration: none;
+}
+.search-trip-btn a{
+ background-color: #BF202F;
+ padding: 5px;
+ color: white;
+
+}
+
+/* plan your own trip */
+.plans{
+ /* background-image: url(../img/trek-option.jpg); */
+  color: #BF202F;
+  display: inline;
+  padding: 35px;
+}
+.plans .customize-trip a{
+ background-color: white ;
+ color: #BF202F !important;
+ padding: 20px 35px 20px 35px;
+ text-transform: uppercase;
+ 
+ 
+}
+.plans .customize-trip a:hover{
+ color: black !important;
+ padding: 22px 37px;
+}
+.plans a:link{
+ text-decoration: none;
+
+}
+.plans a{
+color: white;
+}
+.plans .request-trip a{
+ background-color:#BF202F ;
+ color: white;
+ padding: 20px;
+ text-transform: uppercase;
+
+}
+.plans .request-trip a:hover{
+color: black;
+ padding: 22px;
+ 
+
+}
+/* feature trips */
+.arrow{
+ float: right;
+}
+.arrow a{
+ float: right;
+ background-color: black;
+  border-radius: 50%;
+  color: white;
+  margin-left: 5px;
+  padding: 7px 13px;
+}
+
+
+.featured__text-left{
+ font-weight: 700;
+ text-transform: uppercase;
+ padding: 10px;
+ font-size: 30px;
+}
+.month-lists{
+ display: flex;
+ 
+ flex-direction: row;
+
+ 
+}
+.month-lists ul{
+ list-style: none;
+ display: flex;
+}
+.month-lists ul li{
+list-style: none;
+}
+.month-lists ul li a:link{
+text-decoration: none;
+}
+.month-lists ul li a{
+text-decoration: none;
+color: black;
+padding: 5px;
+text-transform: capitalize;
+font-weight: 500;
+font-size: 14px;
+}
+.featured-trips-info >p{
+ margin-bottom: 0px;
+ color: #BF202F;
+ font-weight: 600;
+ font-size: 20px;
+ padding: 10px;
+
+}
+.featured-trips-info {
+background-color:#FFFFFF;
+padding: 8px;
+position: relative;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* flag-shape */
+.flag {
+ width: 97px;
+ height: 102px;
+ margin: 0 auto;
+ padding-top: 15px;
+ top: -251px;
+   right: 10px;
+   position: absolute; 
+
+ color: white;
+ font-size: 11px;
+ letter-spacing: 0.2em;
+ text-align: center;
+ text-transform: uppercase;
+}
+.flag p {
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ width: 0;
+ height: 0;
+ border-bottom: 30px solid transparent;
+ border-left: 35px solid red;
+ border-right: 35px solid red;
+ border-top: 39px solid red;
+}
+.flag p span {
+font-weight: bold;
+font-size: 17px;
+position: absolute;
+bottom: 4px;
+left: -30px;
+
+}
+
+.month-lists span{
+background-color: #BF202F;
+padding: 7px;
+margin-left: 10px;
+color: white;
+}
+.month-lists span:hover{
+padding: 8px;
+color: black;
+}
+.inqurie-btn a:link{
+ text-decoration: none;
+ 
+}
+.month-lists span a{
+ color: white;
+}
+/* popular treks */
+.popular-treks{
+ background-color: white;
+}
+.popular-treks-container{
+background-color:#FFFFFF;
+padding: 8px;
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.popular-treks__arrow a{
+ float: right;
+ background-color: black;
+  border-radius: 50%;
+  color: white;
+  margin-left: 5px;
+  padding: 7px 13px;
+}
+
+
+.popular__text-left{
+ font-weight: 700;
+ text-transform: uppercase;
+ padding: 10px;
+ font-size: 30px;
+ color: black;
+}
+.popular-trek-content{
+ 
+}
+.popular-trek-content h2{
+ text-transform: uppercase;
+ font-weight: 800;
+ font-size: 20px;
+}
+.popular-trek-highlights ul li{
+ list-style-position:inside ;
+
+}
+.highlight-info{
+
+ 
+}
+.highlight-info ul{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: start;
+
+}
+.highlight-info ul li{
+ list-style: none;
+ text-transform: capitalize;
+ font-size: 18px;
+ padding: 10px;
+ flex: 50%;
+
+
+}
+.highlight-info ul li i{
+color: #537522;
+}
+.popular-trek-month ul{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;
+
+}
+.disabled  {
+ pointer-events: none !important;
+ opacity:0.6;      
+}
+.disabled a:link {
+ pointer-events: none !important;
+ text-decoration: none; 
+}
+.popular-trek-month ul li{
+list-style: none;
+color: black;
+
+}
+.popular-trek-month ul li a{
+ font-weight: 500;
+ font-size: 18px;
+padding: 15px;
+color: black;
+
+}
+.popular-trek-month ul li a:link{
+text-decoration: none;
+
+}
+.popular-trek-btn span a:link{
+ text-decoration: none;
+
+}
+.popular-trek-btn span {
+ background-color: #BF202F;
+
+
+}
+.popular-trek-btn span a{
+ color: #fff;
+}
+.popular-trek-btn span a:hover{
+ color: black;
+}
+.popular-trek-btn .book-btn{
+ padding: 10px 30px 10px 30px;
+
+}
+.popular-trek-btn .inquire-btn{
+ padding: 10px 25px 10px 25px;
+}
+.popular-trek-btn .customize-btn{
+ padding: 10px 20px 10px 20px;
+}
+/* latest travel news */
+.travel-news__heading{
+ font-weight: 800;
+ text-transform: uppercase;
+ font-size: 22px;
+ color: black;
+}
+.travel-news__arrow a{
+ float: right;
+ background-color: black;
+  border-radius: 50%;
+  color: white;
+  margin-left: 5px;
+  padding: 7px 13px;
+}
+.latest-travel-news{
+ background-color:#FFFFFF;
+padding: 8px;
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.latest-travel-news h2{
+ text-transform: uppercase;
+ font-weight: 800;
+ font-size: 20px;
+ margin-top: 15px;
+ padding: 10px;
+ color: #BF202F;
+}
+.latest-travel-news p{
+ padding: 10px;
+}
+.latest-travel-news a{
+ padding: 10px;
+ color: black;
+ text-transform: uppercase;
+ font-weight: 500;
+
+ 
+}
+.latest-travel-news a:link{
+ text-decoration: none;
+
+}
+/*  footer */
+.top-footer h2{
+ text-transform: uppercase;
+ font-weight: 800;
+}
+.top-footer p{
+padding: 20px;
+
+}
+.contactus-icon a i{
+ padding: 20px;
+ font-size: 80px;
+}
+.contactus-icon a i:hover{
+ padding: 22px;
+
+}
+.contact-info{
+ 
+}
+.contact-info p{
+
+}
+.contact-info h4{
+text-transform: uppercase;
+color: #BF202F;
+}
+.contact-info ul li{
+list-style: none;
+padding: 3px;
+margin: 0PX;
+
+}
+.contact-info ul li a{
+list-style: none;
+color:#413f3f;
+}
+.contact-info ul li a:link{
+text-decoration: none;
+}
+.nepal-info h4{
+text-transform: uppercase;
+color: #BF202F;
+}
+.nepal-info ul li{
+list-style: none;
+padding: 3px;
+margin: 0PX;
+
+}
+.nepal-info ul li a{
+list-style: none;
+color:#413f3f;
+}
+.nepal-info ul li a:link{
+text-decoration: none;
+}
+.quick-links h4{
+text-transform: uppercase;
+color: #BF202F;
+}
+.quick-links ul li{
+list-style: none;
+padding: 3px;
+margin: 0PX;
+
+}
+.quick-links ul li a{
+list-style: none;
+color:#413f3f;
+}
+.quick-links ul li a:link{
+text-decoration: none;
+}
+.contact-with-us h4{
+text-transform: uppercase;
+color: #BF202F;
+}
+.contact-with-us ul{
+ display: flex;
+ justify-content: space-between;
+}
+.contact-with-us ul li{
+list-style: none;
+padding: 3px;
+margin: 0PX;
+}
+.contact-with-us ul li a{
+list-style: none;
+color:#413f3f;
+font-size: 50px;
+
+}
+.b-footer-title h4{
+ color: #BF202F;
+}
+.contact-with-us ul li a:link{
+text-decoration: none;
+}
+.bottom-footer p{
+ text-transform: capitalize;
+}
+.bottom-footer span{
+ text-transform: capitalize;
+}
+.bottom-footer span a img{
+ text-transform: capitalize;
+ padding: 5px;
+}
+
+/************************************ details page***********************************************/
+
+.trek-info-title{
+ background-color: white;
+}
+.info-titles{
+ 
+}
+.info-titles a:link{
+ text-decoration: none;
+
+}
+.info-titles a{
+ text-transform: capitalize;
+ padding: 5px;
+ color: gray;
+ border-bottom: 1px solid gray;
+ margin-right: 8px;
+}
+.info-titles{
+
+}
+/* trip-specifications  */
+.trip-specification-wrapper{
+ background-color: #30362f;
+
+
+}
+.trip-specifications{
+ height: auto;
+}
+.trip-specifications ul{
+ padding-top: 20px;
+
+}
+.trip-specifications ul li{
+list-style: none;
+color: white;
+display: flex;
+padding: 15px;
+
+}
+.trip-specifications ul li img{
+ width: auto;
+ height: 50px;
+
+}
+.trip-specifications ul li span h4{
+ font-size: 14px;
+ padding-left: 20px;
+ font-weight: 600;
+ text-transform: uppercase;
+
+}
+.trip-specifications ul li span p{
+font-size: 14px;
+padding-left: 20px;
+
+}
+
+/* card */
+.trip-card {
+ position: absolute;
+ top: -198px;
+
+}
+.trip-card-info{
+ /* background-image: url(../img-tf/images/line-bgd.png); */
+ background-color: white;
+ padding: 20px;
+}
+.trip-card-info .trip-price-prev p{
+ font-size: 18px;
+ text-decoration: line-through; 
+text-decoration-color: #118b8d;
+ color: #118b8d;
+
+}
+.trip-card-info .trip-price-prev p span{
+ font-size: 30px;
+
+
+}
+.trip-price-now p{
+ font-size: 22px;
+ text-decoration: line-through; 
+ text-decoration-color: #118b8d;
+ color: #118b8d;
+}
+.trip-price-now p span{
+ font-size: 35px;
+
+}
+.trip-book-btn button:hover{
+background-color: #BF202F;
+}
+.trip-book-btn button{
+ background-color: #118b8d;
+ border: none;
+ padding: 10px 15px 0px 15px;
+ font-size: 16px;
+ font-weight: 700;
+
+}
+.trip-book-btn button p{
+ color: white;
+text-transform: uppercase;
+
+}
+.trip-book-btn span{
+ text-transform: uppercase;
+ font-weight: 500;
+ font-size: 18px;
+ 
+
+}
+.trip-card-details {
+ background-color: #ffffff;
+}
+.trip-social-icon{
+ display: flex;
+ padding: 10px;
+ 
+}
+.trip-social-icon p{
+ padding: 10px;
+ text-transform: capitalize;
+}
+.trip-social-icon ul {
+margin: 0px;
+display: flex;
+ 
+}
+.trip-social-icon ul li{
+list-style: none;
+padding: 10px;
+}
+.trip-social-icon ul li a{
+ color: #118b8d;
+ padding: 5px;
+ 
+}
+.trip-social-icon ul li a:hover{
+ color: #BF202F;
+ 
+
+}
+
+.trip-booking-info h4{
+ color: #003a17;
+ font-size: 18px;
+ padding: 0px 10px;
+}
+.trip-booking-info a{
+ text-decoration: none;
+ color: black;
+ text-decoration-line: underline;
+ text-decoration-color: #003a17;
+ 
+}
+.trip-booking-info p{
+ padding: 20px;
+ font-size: 16px;
+ 
+ 
+}
+.trip-booking-info p span{
+ font-size: 30px;
+ font-weight: 800;
+}
+/* mid header */
+.mid-header{
+ background-color: #118b8d;
+ position: relative;
+ 
+}
+.mid-header-content ul{
+ display: flex;
+ justify-content: space-between;
+}
+.mid-header-content ul li{
+ list-style: none;
+ padding: 20px;
+}
+.mid-header-content ul li a:hover{
+background-color: #fff;
+padding: 20px;
+color: #BF202F;
+ 
+}
+.mid-header-content ul li a:link{
+ text-decoration: none;
+}
+.mid-header-content ul li a{
+ color: white;
+ text-transform: uppercase;
+ padding: 20px;
+}
+/* circuit-trek */
+.circuit-trek{
+ background-color: white;
+ padding: 10px;
+}
+.circuit-trek-info h2{
+text-transform: capitalize;
+font-weight: 600;
+
+}
+.circuit-trek-info p span{
+ font-weight: 400;
+font-size: 30px;
+}
+.trek-highlight{
+ border: 1px solid #118b8d;
+ padding:15px  50px;
+}
+.trek-highlight h4{
+ text-transform: capitalize;
+ font-weight: 700;
+ font-size: 20px;
+
+}
+.trek-highlight ul li {
+margin-left: 10px;
+padding: 5px;
+}
+
+.ct-card{
+
+ margin: 0px;
+ padding: 0px;
+}
+.ct-discount-card {
+ border: 1px solid #118b8d;
+}
+
+.ct-discount-card h4{
+ text-align: center;
+ padding-top: 20px;
+ color: #118b8d;
+ font-size: 18px;
+ font-weight: bold;
+}
+.ct-discount-card h4 span{
+ color: #118b8d;
+ font-weight: bold;
+ font-size: 30px;
+}
+.ct-discount-card >p{
+ text-align: center;
+ color: #003a17;
+ font-weight: 500;
+ font-size: 18px;
+}
+.ct-discount-card >p a {
+ text-align: center;
+color: black;
+border-bottom: 1px solid #003a17;
+font-size: 15px;
+font-weight: 400;
+}
+.ct-discount-card >p a:link{
+ text-decoration: none;
+
+}
+.ct-discount-card >p a:hover{
+ color: #BF202F;
+}
+
+.ct-banner-img{
+position: relative;
+}
+.ct-banner-img img{
+
+}
+.ct-banner-text{
+ position: absolute;
+ padding: 10px;
+ bottom: 0;
+ background-color: black;
+ opacity: 0.6;
+ color: white;
+ font-weight: 400;
+}
+.ct-banner-text p{
+ color: white;
+
+ 
+}
+.ct-banner-text p a{
+ color: white;
+ font-weight: 700;
+
+}
+.ct-banner-text p a:hover{
+ color:#BF202F;
+}
+.ct-buttons{
+ display: flex;
+ justify-content: space-around;
+ 
+}
+.ct-buttons a:link{
+ text-decoration: none;
+
+}
+.ct-buttons .ct-book-btn{
+ background-color: #118b8d;
+ padding: 10px;
+ 
+}
+.ct-buttons .ct-book-btn:hover{
+ background-color: #BF202F;
+ 
+}
+.ct-buttons .ct-book-btn a{
+ color: #FFFFFF;
+ text-transform: uppercase;
+ font-weight: 500;
+ 
+}
+.ct-buttons .ct-customize-btn{
+ background-color: black;
+ padding: 10px;
+ 
+}
+.ct-buttons .ct-customize-btn:hover{
+ background-color: #BF202F;
+ 
+}
+.ct-buttons .ct-customize-btn a{
+ color: #FFFFFF;
+ text-transform: uppercase;
+ font-weight: 500;
+ 
+}
+.dowload-trip-pdf{
+ border: 1px solid #118b8d;
+ padding: 15px;
+}
+.dowload-trip-pdf a:link{
+ text-decoration: none;
+}
+.dowload-trip-pdf a{
+ text-transform: capitalize;
+ color: gray;
+}
+.row-wrapper{
+ padding-bottom: 150px;
+}
+/* footer spacilist crousel */
+.footer{
+ /* background-image: url(../img-tf/images/footer-background.jpg); */
+ background-size: cover;
+}
+.specialist-crousel-controller h4{
+ text-transform: uppercase;
+ font-weight: 600;
+ font-size: 22px;
+ color: #BF202F;
+ 
+}
+.specialist-crousel-controller a{
+ padding: 0px 10px;
+}
+.specialist-card-body{
+ position: absolute;
+ z-index: 999;
+ width: 312px;
+ bottom: -153px;
+ right: 15px;
+ background-color: white;
+ padding: 20px 10px 0px 21px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.specialist-card-body h4{
+ color:#BF202F ;
+
+}
+
+/* home */
+
